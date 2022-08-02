@@ -9,7 +9,7 @@
 </a>
 <img src="https://img.shields.io/badge/Python-3.7-blue">
 <img src="https://img.shields.io/badge/Requests-2.28.1-blue">
-<img src="https://img.shields.io/badge/BeautifulSoup-4.11.1-blue">
+<img src="https://img.shields.io/badge/BS4-0.0.1-blue">
 <img src="https://img.shields.io/badge/Jieba-0.42.1-blue">
 </p>
 
@@ -19,20 +19,37 @@
 
 ### ⌛ 开始
 
+#### 创建虚拟环境
+
 #### 安装第三方库
 
 ```
-pip3 install requests
+pip install requests==2.28.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-pip3 install bs4
+pip install bs4==0.0.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-pip3 install jieba
+pip install jieba==0.42.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-#### 使用方法
+#### pip 国内镜像源
 
-* 运行 `/bin/start.py` 文件
-    * `python start.py`
+```
+# 清华大学
+https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 中国科技大学
+https://pypi.mirrors.ustc.edu.cn/simple
+
+# 阿里云
+https://mirrors.aliyun.com/pypi/simple
+
+# 豆瓣
+https://pypi.douban.com/simple
+```
+
+#### 运行
+
+* 项目根目录下运行命令 `python start.py`
 * 获取到的爬取数据和统计数据存放在 `/data` 目录下
 
 ### 📜 开源协议

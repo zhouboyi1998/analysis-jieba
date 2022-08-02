@@ -9,7 +9,7 @@
 </a>
 <img src="https://img.shields.io/badge/Python-3.7-blue">
 <img src="https://img.shields.io/badge/Requests-2.28.1-blue">
-<img src="https://img.shields.io/badge/BeautifulSoup-4.11.1-blue">
+<img src="https://img.shields.io/badge/BS4-0.0.1-blue">
 <img src="https://img.shields.io/badge/Jieba-0.42.1-blue">
 </p>
 
@@ -19,20 +19,21 @@
 
 ### ⌛ Start
 
+#### Create Virtualenv
+
 #### Install third-party libraries
 
 ```
-pip3 install requests
+pip install requests==2.28.1
 
-pip3 install bs4
+pip install bs4==0.0.1
 
-pip3 install jieba
+pip install jieba==0.42.1
 ```
 
 #### Instructions
 
-* run the `/bin/start.py` file
-    * `python start.py`
+* Run the command `python start.py`
 * The data store in the `/data` directory
 
 ### 📜 Licence
