@@ -16,7 +16,7 @@ def download_all_html():
     for index in range(5):
         # 爬虫目标网址
         url = f"http://book.zongheng.com/store/c0/c0/b0/u0/p{index + 1}/v9/s9/t0/u0/i1/ALL.html"
-        print("craw html:", url)
+        print("Climb URL: ", url)
         r = requests.get(url, headers=headers)
         # 将页面保存到 html_list 中返回
         html_list.append(r.text)
@@ -142,7 +142,7 @@ def count_word(n):
         with open("data\\total\\Page " + str(i) + " Word Count.txt", 'w', encoding="UTF-8") as fw:
             for k, v in data.items():
                 fw.write('%s: %d\n' % (k, v))
-    print("End...")
+    print("Climb end...")
 
 
 # 创建存储结果数据的文件夹
