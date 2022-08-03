@@ -1,8 +1,8 @@
 <h1 align="center">📊 analysis-jieba</h1>
 
 <p align="center">
-<a target="_blank" href="https://github.com/zhouboyi1998/note-requests"> 
-<img src="https://img.shields.io/github/stars/zhouboyi1998/note-requests?logo=github">
+<a target="_blank" href="https://github.com/zhouboyi1998/analysis-jieba"> 
+<img src="https://img.shields.io/github/stars/zhouboyi1998/analysis-jieba?logo=github">
 </a>
 <a target="_blank" href="https://opensource.org/licenses/MIT"> 
 <img src="https://img.shields.io/badge/license-MIT-red"> 
