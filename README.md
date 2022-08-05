@@ -37,7 +37,7 @@ pip install jieba==0.42.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 # 清华大学
 https://pypi.tuna.tsinghua.edu.cn/simple
 
-# 中国科技大学
+# 中国科学技术大学
 https://pypi.mirrors.ustc.edu.cn/simple
 
 # 阿里云
